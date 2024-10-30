@@ -122,6 +122,7 @@ param administratorAccountPassword string
 param localAdministratorAccountUserName string
 
 @description('Local Administrator Login Password for Session Hosts.')
+@secure()
 param localAdministratorAccountPassword string
 
 @description('Resource Group to deploy Session Host VMs into.')
